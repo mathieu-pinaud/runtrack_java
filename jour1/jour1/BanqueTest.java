@@ -1,3 +1,5 @@
+package jour1;
+
 public class BanqueTest {
     private double solde = 100;
 

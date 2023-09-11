@@ -1,3 +1,5 @@
+package jour1;
+
 public class VoitureTest {
     private int vitesse;
     private String couleur;
