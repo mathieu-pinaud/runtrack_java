@@ -1,5 +1,3 @@
-package jour2;
-
 public class Homme implements Nageur{
     @Override
     public void nager() {

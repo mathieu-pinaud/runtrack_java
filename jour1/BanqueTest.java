@@ -1,11 +1,6 @@
-package jour2;
-
 public class BanqueTest {
-    private double solde;
+    private double solde = 100;
 
-    public BanqueTest(double i){
-        this.solde = i;
-    }
     public void afficher(){
         System.out.println("Solde actuel: " + this.solde);
     }
@@ -23,4 +18,11 @@ public class BanqueTest {
         }
     }
 
+    public static void main(String[] args) {
+        BanqueTest MonCompte = new BanqueTest();
+        MonCompte.afficher();
+        MonCompte.deposer(50);
+        MonCompte.retirer(70);
+        MonCompte.retirer(90);
+    }
 }

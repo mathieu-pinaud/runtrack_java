@@ -1,5 +1,3 @@
-package jour2;
-
 public class DivisionExercice {
 
     public double diviser(double i, double j) throws DivisionParZeroException {

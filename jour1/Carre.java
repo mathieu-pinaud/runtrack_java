@@ -1,5 +1,3 @@
-package jour1;
-
 public class Carre {
     int cote;
 

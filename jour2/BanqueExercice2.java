@@ -1,10 +1,8 @@
-package jour2;
-
-public class BanqueExercice extends BanqueTest{
+public class BanqueExercice2 extends BanqueTest2 {
     private double soldeEpargne;
     private double taux;
 
-    public BanqueExercice(double courant, double epargne, double taux) {
+    public BanqueExercice2(double courant, double epargne, double taux) {
         super(courant);
         this.soldeEpargne = epargne;
         this.taux = taux;
@@ -23,7 +21,7 @@ public class BanqueExercice extends BanqueTest{
         double soldeEpargne = Double.parseDouble(args[1]);
         double tauxInteret = Double.parseDouble(args[2]);
 
-        BanqueExercice MonCompte = new BanqueExercice(soldeCourant, soldeEpargne, tauxInteret);
+        BanqueExercice2 MonCompte = new BanqueExercice2(soldeCourant, soldeEpargne, tauxInteret);
         MonCompte.afficher();
         MonCompte.printEpargne();
         MonCompte.deposer(50);

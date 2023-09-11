@@ -1,5 +1,3 @@
-package jour2;
-
 public class NageExercice {
     public static void main(String[] args) {
         Homme homme = new Homme();

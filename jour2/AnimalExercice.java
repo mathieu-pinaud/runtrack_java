@@ -1,5 +1,3 @@
-package jour2;
-
 public class AnimalExercice {
     public static void main(String[] args) {
         Chat mimi = new Chat();

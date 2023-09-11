@@ -1,5 +1,3 @@
-package jour2;
-
 public class Chien extends Animal {
     @Override
     public void faireDuBruit() {

@@ -1,8 +1,3 @@
-package jour1;
-
-import jour1.Carre;
-import jour1.Cercle;
-
 public class FormesTest {
 
     public static void main(String[] args) {

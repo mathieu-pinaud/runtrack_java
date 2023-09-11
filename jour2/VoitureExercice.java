@@ -1,5 +1,3 @@
-package jour2;
-
 public class VoitureExercice {
     private int vitesse;
     private String couleur;
