@@ -1,13 +1,13 @@
 import java.util.*;
 
 public class EtudiantTest {
-    private String nom;
     private List<Double> notes = new ArrayList<>();
 
     public void setNom() {
-        Scanner keyb = new Scanner(System.in);
-        System.out.print("Nom de l'etudiant: ");
-        this.nom = keyb.nextLine();
+        try (Scanner keyb = new Scanner(System.in)) {
+            System.out.print("Nom de l'etudiant: ");
+            keyb.nextLine();
+        }
     }
 
     public void addNote(double n) {

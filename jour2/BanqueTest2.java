@@ -4,6 +4,7 @@ public class BanqueTest2 {
     public BanqueTest2(double i){
         this.solde = i;
     }
+
     public void afficher(){
         System.out.println("Solde actuel: " + this.solde);
     }

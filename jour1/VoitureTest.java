@@ -1,9 +1,5 @@
-package jour1;
-
 public class VoitureTest {
     private int vitesse;
-    private String couleur;
-    private String modele;
     public VoitureTest() {
         this.vitesse = 0;
     }

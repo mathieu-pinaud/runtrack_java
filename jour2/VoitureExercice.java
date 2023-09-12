@@ -1,7 +1,5 @@
 public class VoitureExercice {
     private int vitesse;
-    private String couleur;
-    private String modele;
     public VoitureExercice() {
         this.vitesse = 90;
     }
